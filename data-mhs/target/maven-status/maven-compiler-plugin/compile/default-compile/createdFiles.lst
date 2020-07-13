@@ -1,0 +1,6 @@
+lab\php\datamhs\repo\DataMahasiswaRepo.class
+lab\php\datamhs\services\DataMahasiswaServices.class
+lab\php\datamhs\entity\DataMahasiswa.class
+lab\php\datamhs\controller\WebController.class
+lab\php\datamhs\DataMhsApplication.class
+lab\php\datamhs\model\DataMahasiswaModel.class

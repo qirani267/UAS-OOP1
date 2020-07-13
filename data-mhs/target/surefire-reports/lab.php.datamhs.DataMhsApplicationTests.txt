@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: lab.php.datamhs.DataMhsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.366 s <<< FAILURE! - in lab.php.datamhs.DataMhsApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataMahasiswaRepo' defined in lab.php.datamhs.repo.DataMahasiswaRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: lab.php.datamhs.entity.DataMahasiswa
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: lab.php.datamhs.entity.DataMahasiswa
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: lab.php.datamhs.entity.DataMahasiswa
+
